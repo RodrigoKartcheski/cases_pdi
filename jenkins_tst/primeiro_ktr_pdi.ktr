@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>first_transf</name>
+    <name>primeiro_ktr_pdi</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -438,11 +438,6 @@
   </notepads>
   <order>
     <hop>
-      <from>Dummy (do nothing)</from>
-      <to>Sort rows</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Sort rows</from>
       <to>Microsoft Excel output</to>
       <enabled>Y</enabled>
@@ -454,7 +449,7 @@
     </hop>
     <hop>
       <from>Select values</from>
-      <to>Dummy (do nothing)</to>
+      <to>Sort rows</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -508,31 +503,6 @@
     </GUI>
   </step>
   <step>
-    <name>Dummy (do nothing)</name>
-    <type>Dummy</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>392</xloc>
-      <yloc>112</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Microsoft Excel output</name>
     <type>ExcelOutput</type>
     <description/>
@@ -549,7 +519,7 @@
     <append>N</append>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>C:\pentaho\repositorio\cases_pdi\jenkins_tst\first_job</name>
+      <name>C:\pentaho\repositorio\cases_pdi\jenkins_tst\first_ktr</name>
       <extention>xls</extention>
       <do_not_open_newfile_init>N</do_not_open_newfile_init>
       <create_parent_folder>N</create_parent_folder>
@@ -605,8 +575,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>688</xloc>
-      <yloc>96</yloc>
+      <xloc>528</xloc>
+      <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -636,8 +606,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>224</xloc>
-      <yloc>96</yloc>
+      <xloc>304</xloc>
+      <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -678,8 +648,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>528</xloc>
-      <yloc>160</yloc>
+      <xloc>304</xloc>
+      <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
