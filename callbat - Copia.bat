@@ -1,1 +1,0 @@
-call cmd C:\pentaho\repositorio\cases_pdi
